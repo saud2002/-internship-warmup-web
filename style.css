@@ -1,0 +1,31 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Hero Section with Overlay */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                url('download (8).jpeg') center/cover no-repeat;
+    padding: 120px 20px;
+}
+
+/* Button hover effect */
+.btn-primary {
+    transition: 0.3s;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+}
+
+/* Footer styling */
+footer {
+    background: #181531;
+    color: #bbb;
+}
+footer a {
+    text-decoration: none;
+}
+footer a:hover {
+    color: white;
+}
